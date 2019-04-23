@@ -11,8 +11,8 @@ print("""ini cara multi baris
 baris 1
 baris 2""")
 
-text2 = r'C:\nyoto' #raw string
+text2 = r'C:\nyoto'  # raw string
 
 print(text2)
-print(5*'wk')
+print(5 * 'wk')
 print(text + text2)

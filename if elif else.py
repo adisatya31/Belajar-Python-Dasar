@@ -1,15 +1,15 @@
 nilai = 50
 
-if nilai == 75: # equal eksplisit
-    print("nilai anda:",nilai)
-
-if nilai is 60: # equal
+if nilai == 75:  # equal eksplisit
     print("nilai anda:", nilai)
 
-if nilai is not 60: # not equal
+if nilai is 60:  # equal
+    print("nilai anda:", nilai)
+
+if nilai is not 60:  # not equal
     print("nilai anda bukan: 60")
 
-print(100*"=")
+print(100 * "=")
 
 nilai = 65
 
@@ -24,21 +24,21 @@ elif 50 <= nilai < 60:
 else:
     print("maaf anda tidak lulus mata kuliah ini")
 
-print(100*"+")
+print(100 * "+")
 print("operator logika untuk list dan string")
 print(" ")
 
-gorengan=["bakwan","cireng","bala-bala","gehu","combro","pisang goreng","pukis","risoles"]
+gorengan = ["bakwan", "cireng", "bala-bala", "gehu", "combro", "pisang goreng", "pukis", "risoles"]
 beli = "bakwan"
 
 if beli in gorengan:
-    print('Mamang bilang, " ya, saya jual',beli,'"')
+    print('Mamang bilang, " ya, saya jual', beli, '"')
 
 if not beli in gorengan:
-    print('"saya gak jual',beli,'"')
+    print('"saya gak jual', beli, '"')
 
 karakter = "z"
 if karakter in beli:
-    print("ada", karakter, "di",beli)
+    print("ada", karakter, "di", beli)
 else:
-    print("tidak ada",karakter,"di",beli)
+    print("tidak ada", karakter, "di", beli)
